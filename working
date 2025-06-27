@@ -59,3 +59,40 @@
   </main>
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hacked?!</title>
+  <style>
+    body {
+      background-color: black;
+      color: red;
+      font-family: monospace;
+      text-align: center;
+      padding-top: 100px;
+    }
+    #reveal {
+      color: lime;
+      margin-top: 50px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="message">💀 YOU'VE BEEN HACKED 💀</h1>
+  <p>System Breach Detected... Downloading Files...</p>
+
+  <div id="reveal">
+    <h2>Just kidding! 😂</h2>
+    <p>You're safe. This is just a prank from your friend!</p>
+  </div>
+
+  <script>
+    let msg = document.getElementById("message");
+
+    // Flashing effect
+    setInterval(() => {
+      msg.style.visibility = msg.style.visibility === "hidden" ? "visible" : "hidden";
+    }, 500);
+
+   
