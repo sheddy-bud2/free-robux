@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Roblox Free Robux</title>
+  <style>
+    body {
+      font-family: "Arial Black", Arial, sans-serif;
+      background-color: #f2f2f2;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #fa3c4c;
+      padding: 15px;
+      color: white;
+      font-size: 28px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    header img {
+      height: 40px;
+    }
+    main {
+      margin-top: 100px;
+    }
+    a.fake-button {
+      display: inline-block;
+      background-color: #3c82f6;
+      color: white;
+      padding: 15px 30px;
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      box-shadow: 0 5px #2a5ccf;
+      transition: all 0.2s ease;
+    }
+    a.fake-button:active {
+      box-shadow: none;
+      transform: translateY(4px);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Roblox_logo.svg/320px-Roblox_logo.svg.png" alt="Roblox Logo" />
+    Roblox
+  </header>
+
+  <main>
+    <h1>Claim Your Free Robux Now!</h1>
+    <p>Click the button below to get your free Robux instantly.</p>
+    <a class="fake-button" href="prank.html">Get Free Robux</a>
+  </main>
+</body>
+</html>
